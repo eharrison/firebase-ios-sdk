@@ -459,6 +459,11 @@ let package = Package(
       path: "FirebaseStorageSwift/Sources"
     ),
     .target(
+      name: "FireabaseDatabase",
+      dependencies: ["Firebase"],
+      path: "FireabaseDatabase/Sources"
+    ),
+    .target(
       name: "GoogleDataTransport",
       dependencies: ["nanopb"],
       path: "GoogleDataTransport",

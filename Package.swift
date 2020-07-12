@@ -63,6 +63,10 @@ let package = Package(
       name: "FirebaseStorageSwift",
       targets: ["FirebaseStorageSwift"]
     ),
+    .library(
+      name: "FirebaseDatabase",
+      targets: ["FirebaseDatabase"]
+    ),
   ],
   dependencies: [
     .package(name: "Promises", url: "https://github.com/google/promises.git", "1.2.8" ..< "1.3.0"),
